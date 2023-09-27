@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <section class="w-full relative ">
+        <!-- BANNER -->
+        <div class="banner w-full h-10 bg-[rgb(51,53,69)]">
+        </div>
+
+        <!-- NAVBAR -->
+        <div class=" w-full h-16 bg-[rgb(34,37,57)] relative pt-3">
+            <div class="relative lg:w-[1080px] w-[100%] mx-auto flex items-center justify-evenly">
+                <ul class=" space-x-6 lg:flex hidden ">
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group ">
+                        <a href="#">About Us</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px] bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group ">
+                        <a href="#">Destination</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px]  bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group  ">
+                        <a href="#">Experience</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px]  bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Online Store</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px]  bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group ">
+                        <a href="#">Resources</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px]  bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group ">
+                        <a href="#">Contact Us</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px]  bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                    <li
+                        class="text-white py-2 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Pricing</a>
+                        <div
+                            class="bg-white absolute bottom-0 w-full h-[2px]  bg-lightBlue hidden group-hover:block transition-all duration-200">
+                        </div>
+                    </li>
+                </ul>
+                <div class="flex space-x-6 right-[2%] bottom-[18%] lg:right-0 lg:bottom-0 absolute lg:relative ">
+                    <a href="LoginAll.html"
+                        class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold">Log
+                        in</a>
+                    <a href="./account/signup.html"
+                        class="py-3 px-4 font-mullish text-sm rounded-sm font-bold
+                       bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:flex">Sign up
+                        <svg viewBox="0 0 24 24" focusable="false" class="m-0.5 w-[14px] h-[14px] ml-2">
+                            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Image sliding -->
+
+        <div class="image-sliding">
+            <section class="main swiper mySwiper">
+                <div class="wrapper1 swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <img src="images/img1.jpg" alt="" class="image" loading="lazy" />
+                        <div class="image-data">
+                            <span class="text">Enjoy the finest coffee drinks.</span>
+                            <h2>
+                                Enjoy Our Exclusive <br />
+                                Coffee and Cocktails
+                            </h2>
+                            <a href="#" class="button">About Us</a>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="images/img2.jpg" alt="" class="image" loading="lazy" />
+                        <div class="image-data">
+                            <span class="text">We really like what we do.</span>
+                            <h2>
+                                Coffee Beans with a <br />
+                                Perfect Aroma
+                            </h2>
+                            <a href="#" class="button">About Us</a>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="images/img3.jpg" alt="" class="image" loading="lazy" />
+                        <div class="image-data">
+                            <span class="text">Making Our coffee with lover.</span>
+                            <h2>
+                                Alluring and Fragrant <br />
+                                Coffee Aroma
+                            </h2>
+                            <a href="#" class="button">About Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next nav-btn"></div>
+                <div class="swiper-button-prev nav-btn"></div>
+                <div class="swiper-pagination"></div>
+            </section>
+        </div>
+
+
+
+        <!-- About Website -->
+        <div class="bg-gray-200">
+            <div
+                class="w-10/1 md:w-11/12 max-w-[1080px] mx-auto flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-col justify-between  ">
+                <div>
+                    <h1 class=" font-bold text-[40px] leading-[1.2] text-center mb-10 ">About Website</h1>
+
+                </div>
+                <div>
+                    <p class=" text-[18px] leading-7 text-black opacity-70">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Praesentium aspernatur distinctio illo repudiandae maxime molestias, quos
+                        facilis dignissimos quae itaque accusamus, dolores sint. Tempore quasi aliquid doloribus impedit
+                        id nemo.
+                        Quibusdam necessitatibus, harum qui ipsa quo, maiores suscipit laboriosam ipsum possimus placeat
+                        eos incidunt magnam commodi molestiae quisquam consequuntur cupiditate magni obcaecati illo
+                        cumque rem aut blanditiis quod! Doloribus, sint.
+                        Fugit pariatur deserunt dolorem harum porro autem alias maiores sint perspiciatis quaerat earum
+                        animi, facere nam mollitia asperiores. Blanditiis, natus. Neque deserunt inventore voluptate.
+                        Quasi quam qui perspiciatis totam impedit?
+                        Laboriosam, velit doloribus? Cupiditate laborum doloribus repellendus? Ea eveniet repellendus
+                        temporibus, error ducimus nam ullam debitis earum dolor necessitatibus nulla ex dolorem, odit
+                        nesciunt vitae magnam quas omnis facere deleniti.
+                        Asperiores vel nulla minus quos consequuntur, repellendus enim veniam illo expedita deleniti,
+                        numquam dolor hic perspiciatis quo voluptas necessitatibus molestiae at quod repellat nostrum.
+                        Eveniet modi ullam assumenda maiores sequi.
+                        Ex repellendus possimus nihil voluptas tenetur odit quisquam quo non esse veritatis alias fugiat
+                        quasi exercitationem doloremque sit nisi id, atque incidunt voluptatem inventore, quibusdam
+                        architecto natus nulla debitis! Quo?</debitis>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- map section -->
+        <div class="bg-gray-200">
+            <div class="flex flex-row w-[1350px] mx-auto justify-between">
+                <div class="h-[430px] w-[360px] border-red-600 border-[5px] rounded-md overflow-hidden relative mt-10">
+                    <div
+                        class="bg-[url('./Dimage/image5.jpg')] h-[430px] w-[360px]  hover:scale-110  duration-300 brightness-50">
+                    </div>
+                    <div class="text-white text-2xl mx-auto absolute top-[45%] left-[40%]">Event 1</div>
+
+                </div>
+                <div class="mb-5 flex items-end justify-end relative mt-10">
+                    <img src="./map/map.png" alt="" class="w-[500px]">
+                </div>
+                <div class="h-[430px] w-[360px] border-red-600 border-[5px] rounded-md overflow-hidden relative mt-10">
+                    <div
+                        class="bg-[url('./Dimage/image5.jpg')] h-[430px] w-[360px]  hover:scale-110  duration-300 brightness-50">
+                    </div>
+                    <div class="text-white text-2xl mx-auto absolute top-[45%] left-[40%]">Event 2</div>
+
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Product gallery -->
+        <div class="bg-gray-200">
+            <div class="dcontainer bg-[rgba(16,17,31,0)] ">
+                <h1>District-Wise Selected Products</h1>
+                <div class="gallery ml-10 mr-10">
+    
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image5.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image5</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image6.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image6</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image7.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image7</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image8.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image8</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image9.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image9</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image1.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image1</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image2.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image2</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image3.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image3</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image4.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image4</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image5.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image5</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image6.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image6</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image7.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image7</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image8.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image8</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image9.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image9</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image8.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image8</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image9.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image9</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image1.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image1</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image2.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image2</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image3.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image3</figcaption>
+                    </figure>
+                    <figure class="card img">
+                        <a href="product-gallery.html">
+                            <img src="./Dimage/image4.jpg" alt="Image5">
+                        </a>
+                        <figcaption>Image4</figcaption>
+                    </figure>
+                </div>
+    
+    
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-200">
+            <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)" class="-mt-[400px] md:-mt-[300px]  ">
+                <div
+                    class="w-10/12 pt-[400px] pb-10 md:pt-[350px] md:my-0 md:w-11/12 max-w-[1080px] mx-auto flex flex-row space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-between">
+                    <div>
+                        <p class=" uppercase font-bold mb-1">
+                            BANKING PLUS
+                        </p>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#" class=" ">RazorpayX</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Current
+                                    Accounts</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Payouts</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Payout
+                                    Links</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Corporate
+                                    Credit Card</a>
+                            </li>
+                            <li>
+                                <a href="#" class="relative  ">
+                                    View Live Demo
+                                    <span
+                                        class="text-white font-mullish uppercase bg-green-500 rounded-sm text-xs font-bold p-1">New</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <p class="font-mullish uppercase font-bold text-gray2 mb-1">
+                            ACCEPT PAYMENTS
+                        </p>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#" class=" ">Payment
+                                    Gateway</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Payment
+                                    Pages</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Payment
+                                    Links</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">QR
+                                    Codes</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">Subscriptions</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" ">
+                                    Smart Collect
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold  mb-1">
+                            COMPANY
+                        </p>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#" class="font-medium">About
+                                    Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="relative font-medium ">Careers
+                                    <span class="text-white  bg-green-500 rounded-sm text-xs font-bold p-1">We're
+                                        hiring!</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="font-medium  ">Terms
+                                    of Use</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" font-medium ">Privacy
+                                    Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" font-medium ">Grievance
+                                    Redressal</a>
+                            </li>
+                            <li>
+                                <a href="#" class=" font-medium ">
+                                    Responsible Disclosure
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="font-medium">
+                                    Partners
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="font-medium">
+                                    White Papers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="font-medium">
+                                    Corporate Information
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    
+    
+    
+                    <div>
+                        <p class=" uppercase font-bold  mb-1">
+                            REGD. OFFICE ADDRESS
+                        </p>
+                        <p class=" text-sm mt-4 whitespace-nowrap">
+                            Razorpay Software Private Limited, <br />1st Floor, SJR Cyber,
+                            <br />22 Laskar Hosur Road, Adugodi, <br />Bengaluru, 560030,
+                            <br />Karnataka, India <br />CIN: U72200KA2013PTC097389
+                        </p>
+                        <div class=" mt-6">
+                            <p class="text-sm">© Razorpay 2022</p>
+                            <p class="text-sm">All Rights Reserved</p>
+                        </div>
+                    </div>
+    
+    
+                    <div>
+                        <p class=" uppercase font-bold mb-1 ">
+                            FIND US ONLINE
+                        </p>
+                        <ul class="flex space-x-4 items-center mt-4 text-[25px]">
+                            <li class="cursor-pointer">
+                                <a >
+                                    <i class="fa-brands fa-instagram" ></i>
+                                </a>
+                            </li>
+                            <li class="cursor-pointer">
+                                <a>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="cursor-pointer">
+                                <a>
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="cursor-pointer">
+                                <a>
+                                    <i class="fa-brands fa-square-github"></i>
+                                </a>
+                            </li>
+                            <li class="cursor-pointer">
+                                <a>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                </div>
+    
+            </footer>
+        </div>
+
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
